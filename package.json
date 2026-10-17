@@ -8,13 +8,16 @@
     "build": "tsc -b && vite build",
     "build:test": "tsc -b && vite build --mode test",
     "build:prod": "tsc -b && vite build --mode production",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "mocha"
   },
   "dependencies": {
     "solid-js": "^1.9.15"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4",
     "typescript": "~6.0.2",
     "vite": "^8.3.0",
     "vite-plugin-solid": "^2.11.14"

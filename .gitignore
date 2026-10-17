@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # 测试报告
-mochawesome-report
+test-report
